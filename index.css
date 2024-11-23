@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cta {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #87eba2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta:hover {
+    background-color: #8fc9e6;
+    /* transform: scale(1.05); */
+}
+
+.cta:active {
+    transform: scale(0.95);
+}
+
+.ctb {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #8fc9e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.ctb:hover {
+    background-color: #DDA0DD;
+    /* transform: scale(1.05); */
+}
+
+.ctb:active {
+    transform: scale(0.95);
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cta {
+    background: #DDA0DD;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.hero {
+    background: #61104f;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about, .services, .testimonials, .blog {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.rounded-block {
+    display: inline-block;
+    padding: 20px;
+    background-color: #948d93;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.rounded-block:hover {
+    background-color: #800080;
+}
+
+.review-card {
+
+    display: inline-block;
+    width: 30%;
+    margin: 20px 1%;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.star-rating {
+    font-size: 30px;
+    color: gold;
+}
+
+footer {
+    background: #4a4a4a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #DDA0DD;
+    margin: 0 15px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.newsletter {
+    margin: 20px 0;
+}
